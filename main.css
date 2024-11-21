@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+height: 2800px;
+
+}
+
+.header{
+    width: 100%;
+    height: 110px;
+}
+.second{
+    background-color: rgb(44 62 80);
+    width: 100%;
+    height: 110px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: center;
+    position: fixed;
+  
+   
+    
+  
+}
+
+
+.s{
+    width: 8.33%;
+    font-weight:900;
+    text-transform:uppercase;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+ }
+
+.k{
+    width: 65%;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 50px;
+    
+}
+
+.d1{
+    width: 100%;
+    height: 600px;
+    background-color:rgb(26 187 155);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+      
+}
+.d1 h1{
+    font-size: 2.75rem;
+    font-size: 3rem;
+
+    color: white;
+    font-family: "Montserrat" "Segoe UI",  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+}
+.d1 p{
+color: white;
+font-size: 20px;
+font-weight: 900;
+}
+
+.d1 img {
+width: 350px;
+hight:350px;
+}
+
+.Portfolio{
+width: 100%;
+height: 720px;
+display: flex;
+flex-direction: column;
+background-color: white;
+justify-content: center;
+align-items: center;
+
+
+}
+.Portfolio h2{
+    color: rgb(44 62 80);
+    font-size: 3rem;
+    font-family: "Montserrat", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    text-align: center;
+    height: 100px;
+    align-content: center;
+
+
+}
+.images{
+    width: 90%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+    
+
+
+}
+.Portfolio .images .image{
+    width: 30%;
+}
+.images img{
+    width: 100%;
+    height: auto;
+}
+.about{
+    width: 100%;
+    height: 450px;
+    background-color:rgb(26 187 155);
+
+}
+.about h2{
+    color: white;
+    font-family: "Montserrat", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+.about .pp{
+    color: white;
+    font-family: "Montserrat", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.paragraphs {
+  width: 100%;
+  height:220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.about .p1{
+    width: 290px;
+    height: 210px;
+    font-size: 1.25rem;
+    color: white;
+    margin-right: 25px;
+}
+.about .p2{
+    width: 290px;
+    height: 150px;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.download{
+    border: 2px solid white;
+    background-color:rgb(26 187 155); 
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.download p{
+    color: white;
+    font-size: 16px;
+}
+i{
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+  
+}
+
+form{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 50%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .contact h2{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: rgb(44 62 80);
+    font-family: "Montserrat", "Segoe UI",  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+  
+  .contact .pp{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: rgb(44 62 80);
+    font-family: "Montserrat", "Segoe UI",  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .contact button{
+    background-color:rgb(26 187 155); 
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+  }
+
+  .footer{
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(44 62 80) ;
+    align-items: center;
+    justify-content: center;
+
+
+    
+
+  }
+  .footer h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Montserrat", "Segoe UI",  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.footer p{
+    color: white;
+    font-size: 20px ;
+    font-weight: 400;
+   
+    font-family: "Montserrat", "Segoe UI",  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ 
+
+}
+.footer .d{
+width: 30%;
+height: 350px;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+     
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icons i {
+    font-size: 40px;
+    margin: 5px;
+} 
+
+.copywrite{
+    background-color: #1a252f;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
